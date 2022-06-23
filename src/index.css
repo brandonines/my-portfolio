@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+  /* color: #FED7AA; */
+  color: #FDBA74;
+}
+
+.active:hover {
+  color: #1C1917;
+}
+
+.App-logo {
+  width:150px;
+}
+
+.lato {
+  font-family:'Lato';
+}
+
+.lora {
+  font-family: "Lora"
+}
+
+.old-standard {
+  font-family: 'Old Standard TT'
+}
+
+.prose img {
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+
